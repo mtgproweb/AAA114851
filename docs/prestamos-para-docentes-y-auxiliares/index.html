@@ -178,6 +178,40 @@
 <main>
 <section class="dc-sec">
 <div class="dc-con">
+<span class="dc-sec-lbl">Cargos que tomamos</span>
+<h2>¿Cuál es tu cargo en <span>DGCyE?</span></h2>
+<p>Si tu cargo es uno de estos, podés consultar tu disponible.</p>
+<div class="dc-grid">
+<div class="dc-card">
+<div class="dc-card-ico"><i class="fa-solid fa-graduation-cap"></i></div>
+<h3>TITULAR</h3>
+<p>Docente o auxiliar DGCyE. Podés consultar tu disponible.</p>
+</div>
+<div class="dc-card">
+<div class="dc-card-ico"><i class="fa-solid fa-graduation-cap"></i></div>
+<h3>TITULAR INTERINO</h3>
+<p>Docente o auxiliar DGCyE. Podés consultar tu disponible.</p>
+</div>
+<div class="dc-card">
+<div class="dc-card-ico"><i class="fa-solid fa-clock"></i></div>
+<h3>PROVISIONAL</h3>
+<p>Docente o auxiliar DGCyE. Podés consultar tu disponible.</p>
+</div>
+<div class="dc-card">
+<div class="dc-card-ico"><i class="fa-solid fa-user-clock"></i></div>
+<h3>SUPLENTE</h3>
+<p>Docente o auxiliar DGCyE. Podés consultar tu disponible.</p>
+</div>
+<div class="dc-card">
+<div class="dc-card-ico"><i class="fa-solid fa-calendar-check"></i></div>
+<h3>MENSUALIZADO</h3>
+<p>Docente o auxiliar DGCyE. Podés consultar tu disponible.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="dc-sec">
+<div class="dc-con">
 <span class="dc-sec-lbl">Líneas de Préstamo Disponibles</span>
 <h2>Docentes y Auxiliares <span>Provincia de Buenos Aires</span></h2>
 <p>Los docentes y auxiliares pueden acceder a préstamos por <strong>descuento directo de haberes.</strong></p>
@@ -213,12 +247,6 @@
 <h3>Apto Veraz negativo</h3>
 <p>Al ser por descuento de haberes de DGCyE, tu historial crediticio o bancario no es un impedimento.</p>
 </div>
-</div>
-<h3 style="margin-top:28px">Cargos que tomamos en DGCyE</h3>
-<p>Si tu cargo es uno de estos, podés consultar tu disponible.</p>
-<div class="org-slider" aria-label="Cargos DGCyE que tomamos">
-<div class="org-track" id="org-track"><article class="org-card"><div class="sl-card-ico"><i class="fa-solid fa-graduation-cap"></i></div><h3>TITULAR</h3><p>Docente o auxiliar DGCyE</p></article><article class="org-card"><div class="sl-card-ico"><i class="fa-solid fa-graduation-cap"></i></div><h3>TITULAR INTERINO</h3><p>Docente o auxiliar DGCyE</p></article><article class="org-card"><div class="sl-card-ico"><i class="fa-solid fa-clock"></i></div><h3>PROVISIONAL</h3><p>Docente o auxiliar DGCyE</p></article><article class="org-card"><div class="sl-card-ico"><i class="fa-solid fa-user-clock"></i></div><h3>SUPLENTE</h3><p>Docente o auxiliar DGCyE</p></article><article class="org-card"><div class="sl-card-ico"><i class="fa-solid fa-calendar-check"></i></div><h3>MENSUALIZADO</h3><p>Docente o auxiliar DGCyE</p></article></div>
-<div class="org-nav"><button type="button" class="org-btn" id="org-prev" aria-label="Anterior">‹</button><span class="org-hint">Deslizá para ver todos los cargos</span><button type="button" class="org-btn" id="org-next" aria-label="Siguiente">›</button></div>
 </div>
 </div>
 </section>
@@ -478,6 +506,5 @@ document.addEventListener('DOMContentLoaded', function () {
 </footer>
 <script src="../js/main.js" defer></script>
 <script src="../js/credis-assistant.js?v=20260924i" defer></script>
-<script>document.addEventListener('DOMContentLoaded',function(){var tr=document.getElementById('org-track');if(!tr)return;var step=function(){var c=tr.querySelector('.org-card');return c?c.offsetWidth+14:260;};var p=document.getElementById('org-prev'),n=document.getElementById('org-next');if(p)p.addEventListener('click',function(){tr.scrollBy({left:-step(),behavior:'smooth'});});if(n)n.addEventListener('click',function(){tr.scrollBy({left:step(),behavior:'smooth'});});});</script>
 </body>
 </html>
